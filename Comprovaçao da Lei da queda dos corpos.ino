@@ -30,7 +30,7 @@ void loop() {
  
     Serial.print("Velocidade entre os sensores: ");
     Serial.print(velocity);
-    Serial.println(" m/s");
+    Serial.println(" m/s");//Imprime o valor que sera usado para medir a precisao do calculo de velocidade de acordo com a distancia entre o inicio da queda livre e o sensor de velocidade
     
     delay(1000); 
   }
